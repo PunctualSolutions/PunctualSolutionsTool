@@ -2,7 +2,7 @@
 
 namespace ZhengDianWaiBao.Tool.Editor
 {
-    public static class EditorTool
+    public class EditorTool
     {
         public static void Play()
         {
