@@ -5,6 +5,7 @@
   "displayName": "ZhengDianTool",
   "unity": "2023.3",
   "dependencies": {
-    "com.cysharp.unitask": "2.5.3"
+    "com.cysharp.unitask": "2.5.3",
+    "com.unity.nuget.newtonsoft-json": "3.2.1"
   }
 }
