@@ -4,12 +4,12 @@ namespace ZhengDianWaiBao.Tool
 {
     public class CmdTool
     {
-        public static void RunCmd(string command, string argument, bool wait = false)
+        public static void RunCmd(string command, string argument, bool wait = false , bool useWindow = false)
         {
             var info = new ProcessStartInfo(command)
             {
                 Arguments = argument,
-                CreateNoWindow = true,
+                CreateNoWindow = !useWindow,
                 UseShellExecute = false
             };
             var process = Process.Start(info);
