@@ -3,7 +3,7 @@
   "version": "0.0.4-alpha",
   "description": "Tool",
   "displayName": "ZhengDianTool",
-  "unity": "2023.3",
+  "unity": "2022.1",
   "dependencies": {
     "com.cysharp.unitask": "2.5.3",
     "com.unity.nuget.newtonsoft-json": "3.2.1"
