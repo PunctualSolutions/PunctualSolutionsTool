@@ -1,12 +1,20 @@
 ﻿using UnityEditor;
+using UnityEngine;
 
 namespace ZhengDianWaiBao.Tool.Editor
 {
-    public class EditorTool
+    public static class EditorTool
     {
-        public static void Play()
+        public static void Play() => EditorApplication.EnterPlaymode();
+
+        public static SerializedObject GetEditorScriptableObject<T>(string path) where T : ScriptableObject
         {
-            EditorApplication.EnterPlaymode();
+            var settings = AssetDatabase.LoadAssetAtPath<T>(path);
+            if (settings != null) return new SerializedObject(settings);
+            settings = ScriptableObject.CreateInstance<T>();
+            AssetDatabase.CreateAsset(settings, path);
+            AssetDatabase.SaveAssets();
+            return new SerializedObject(settings);
         }
     }
 }
