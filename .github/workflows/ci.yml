@@ -35,11 +35,11 @@ jobs:
         fi
         git push -f -u origin upm
       env:
-        PKG_ROOT: Packages/com.littlebigfun.semantic-release-upm-example
+        PKG_ROOT: /
     - name: Create upm git tag
       if: steps.semantic.outputs.new_release_published == 'true'
       run: |
         git tag $TAG upm
         git push origin --tags
       env:
-        TAG: upm/v${{ steps.semantic.outputs.new_release_version }}
+        TAG: upm/${{ steps.semantic.outputs.new_release_version }}
