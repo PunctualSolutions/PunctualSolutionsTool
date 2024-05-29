@@ -1,3 +1,11 @@
+## [1.0.1](https://github.com/PunctualSolutions/PunctualSolutionsTool/compare/1.0.0...1.0.1) (2024-05-29)
+
+
+### Bug Fixes
+
+* pkgRoot ([d218dd7](https://github.com/PunctualSolutions/PunctualSolutionsTool/commit/d218dd73dbe02827b5e7a8bb02f63cfb1f3ea591))
+* set pkgRoot is git root dir ([1709140](https://github.com/PunctualSolutions/PunctualSolutionsTool/commit/1709140c9bbb9d8235875fbcf0a22470f6e77e36))
+
 # 1.0.0 (2024-05-29)
 
 
