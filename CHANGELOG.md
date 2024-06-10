@@ -1,3 +1,10 @@
+## [1.0.2](https://github.com/PunctualSolutions/PunctualSolutionsTool/compare/1.0.1...1.0.2) (2024-06-10)
+
+
+### Bug Fixes
+
+* add meta ([e54d23f](https://github.com/PunctualSolutions/PunctualSolutionsTool/commit/e54d23f863302d4adb8c732715825c2bdee6d060))
+
 ## [1.0.1](https://github.com/PunctualSolutions/PunctualSolutionsTool/compare/1.0.0...1.0.1) (2024-05-29)
 
 
