@@ -2,7 +2,7 @@
   "name": "cn.punctual-solutions.tool",
   "version": "1.0.0",
   "description": "Tool",
-  "displayName": "PunctualSolutionsTool",
+  "displayName": "Punctual Solutions Tool",
   "unity": "2022.1",
   "dependencies": {
     "com.cysharp.unitask": "2.5.3",
