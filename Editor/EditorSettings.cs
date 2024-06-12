@@ -2,7 +2,7 @@
 using UnityEngine;
 using UnityEngine.TextCore.Text;
 
-namespace ZhengDianWaiBao.Tool.Editor
+namespace PunctualSolutionsTool.Tool.Editor
 {
     internal class EditorSettings : ScriptableObject
     {

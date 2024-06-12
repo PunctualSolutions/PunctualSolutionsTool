@@ -1,6 +1,6 @@
 using System.Threading;
 
-namespace ZhengDianWaiBao.Tool
+namespace PunctualSolutionsTool.Tool
 {
     public static class TaskTool
     {

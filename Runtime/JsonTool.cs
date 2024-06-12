@@ -1,6 +1,6 @@
 using Newtonsoft.Json;
 
-namespace ZhengDianWaiBao.Tool
+namespace PunctualSolutionsTool.Tool
 {
     public static class JsonTool
     {

@@ -1,7 +1,7 @@
 ﻿using UnityEditor;
 using UnityEngine.UIElements;
 
-namespace ZhengDianWaiBao.Tool.Editor
+namespace PunctualSolutionsTool.Tool.Editor
 {
     internal class EditorSettingsProvider : SettingsProvider
     {

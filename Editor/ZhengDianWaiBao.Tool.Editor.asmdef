@@ -1,6 +1,6 @@
 {
-    "name": "ZhengDianWaiBao.Tool.Editor",
-    "rootNamespace": "ZhengDianWaiBao.Tool.Editor",
+    "name": "PunctualSolutionsTool.Tool.Editor",
+    "rootNamespace": "PunctualSolutionsTool.Tool.Editor",
     "references": [
         "Unity.Burst.Editor"
     ],

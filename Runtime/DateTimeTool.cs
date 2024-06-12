@@ -1,6 +1,6 @@
 using System;
 
-namespace ZhengDianWaiBao.Tool
+namespace PunctualSolutionsTool.Tool
 {
     public static class DateTimeTool
     {

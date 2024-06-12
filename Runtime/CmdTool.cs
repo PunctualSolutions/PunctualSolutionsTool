@@ -1,6 +1,6 @@
 ﻿using System.Diagnostics;
 
-namespace ZhengDianWaiBao.Tool
+namespace PunctualSolutionsTool.Tool
 {
     public class CmdTool
     {

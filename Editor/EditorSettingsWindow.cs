@@ -3,7 +3,7 @@ using UnityEngine;
 using UnityEngine.UIElements;
 using PackageInfo = UnityEditor.PackageManager.PackageInfo;
 
-namespace ZhengDianWaiBao.Tool.Editor
+namespace PunctualSolutionsTool.Tool.Editor
 {
     public class EditorSettingsWindow
     {

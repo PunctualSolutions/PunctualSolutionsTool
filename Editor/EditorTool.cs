@@ -1,7 +1,7 @@
 ﻿using UnityEditor;
 using UnityEngine;
 
-namespace ZhengDianWaiBao.Tool.Editor
+namespace PunctualSolutionsTool.Tool.Editor
 {
     public static class EditorTool
     {

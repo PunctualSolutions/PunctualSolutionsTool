@@ -2,7 +2,7 @@ using System;
 using System.Threading;
 using System.Threading.Tasks;
 
-namespace ZhengDianWaiBao.Tool
+namespace PunctualSolutionsTool.Tool
 {
     public static class TaskConvertTool
     {

@@ -1,6 +1,6 @@
 using UnityEngine;
 
-namespace ZhengDianWaiBao.Tool
+namespace PunctualSolutionsTool.Tool
 {
     public static class ColliderTool
     {
