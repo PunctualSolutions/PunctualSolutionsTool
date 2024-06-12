@@ -1,3 +1,10 @@
+# [1.1.0](https://github.com/PunctualSolutions/PunctualSolutionsTool/compare/1.0.2...1.1.0) (2024-06-12)
+
+
+### Features
+
+* add cascadia code pl and noto serifcjk sc font ([48f4520](https://github.com/PunctualSolutions/PunctualSolutionsTool/commit/48f452000b74bc66f8845c3314c07da1c0e49ab1))
+
 ## [1.0.2](https://github.com/PunctualSolutions/PunctualSolutionsTool/compare/1.0.1...1.0.2) (2024-06-10)
 
 
