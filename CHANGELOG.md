@@ -1,3 +1,10 @@
+## [1.1.2](https://github.com/PunctualSolutions/PunctualSolutionsTool/compare/1.1.1...1.1.2) (2024-06-17)
+
+
+### Bug Fixes
+
+* ci ([e983873](https://github.com/PunctualSolutions/PunctualSolutionsTool/commit/e9838735db640b827680d0e466858c6cd735b3f1))
+
 ## [1.1.1](https://github.com/PunctualSolutions/PunctualSolutionsTool/compare/1.1.0...1.1.1) (2024-06-17)
 
 
