@@ -1,3 +1,12 @@
+## [1.1.1](https://github.com/PunctualSolutions/PunctualSolutionsTool/compare/1.1.0...1.1.1) (2024-06-17)
+
+
+### Bug Fixes
+
+* ci ([73542e6](https://github.com/PunctualSolutions/PunctualSolutionsTool/commit/73542e699247948d9da5ec9583c4b91d80d8859e))
+* ci PKG_ROOT path ([475bcc7](https://github.com/PunctualSolutions/PunctualSolutionsTool/commit/475bcc77c180d44b648497801b2af86afea66001))
+* reload meta ([6108c09](https://github.com/PunctualSolutions/PunctualSolutionsTool/commit/6108c0935b541f4caa6fbe7dc70fe73603dfc0c7))
+
 # [1.1.0](https://github.com/PunctualSolutions/PunctualSolutionsTool/compare/1.0.2...1.1.0) (2024-06-12)
 
 
