@@ -1,3 +1,10 @@
+## [1.1.5](https://github.com/PunctualSolutions/PunctualSolutionsTool/compare/1.1.4...1.1.5) (2024-07-03)
+
+
+### Bug Fixes
+
+* WindowTool.cs utf8 ([014b984](https://github.com/PunctualSolutions/PunctualSolutionsTool/commit/014b98412bb483d46f562a5b85802cd7289a38e7))
+
 ## [1.1.4](https://github.com/PunctualSolutions/PunctualSolutionsTool/compare/1.1.3...1.1.4) (2024-07-03)
 
 
