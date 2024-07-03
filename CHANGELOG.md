@@ -1,3 +1,10 @@
+## [1.1.3](https://github.com/PunctualSolutions/PunctualSolutionsTool/compare/1.1.2...1.1.3) (2024-07-03)
+
+
+### Bug Fixes
+
+* package.json ([47a33b5](https://github.com/PunctualSolutions/PunctualSolutionsTool/commit/47a33b54da712039ceaea154f22cf454d3e31e30))
+
 ## [1.1.2](https://github.com/PunctualSolutions/PunctualSolutionsTool/compare/1.1.1...1.1.2) (2024-06-17)
 
 
