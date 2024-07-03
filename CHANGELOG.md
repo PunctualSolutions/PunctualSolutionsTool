@@ -1,3 +1,10 @@
+## [1.1.4](https://github.com/PunctualSolutions/PunctualSolutionsTool/compare/1.1.3...1.1.4) (2024-07-03)
+
+
+### Bug Fixes
+
+* WindowTool.SetResolution public ([18dc0d6](https://github.com/PunctualSolutions/PunctualSolutionsTool/commit/18dc0d6ec4e14f4c1e56badc3088e746b5e70b19))
+
 ## [1.1.3](https://github.com/PunctualSolutions/PunctualSolutionsTool/compare/1.1.2...1.1.3) (2024-07-03)
 
 
