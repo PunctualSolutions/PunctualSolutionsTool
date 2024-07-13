@@ -1,3 +1,10 @@
+## [1.1.6](https://github.com/PunctualSolutions/PunctualSolutionsTool/compare/1.1.5...1.1.6) (2024-07-13)
+
+
+### Bug Fixes
+
+* remove space ([82a7216](https://github.com/PunctualSolutions/PunctualSolutionsTool/commit/82a72166b014887bc0f0079e75ee9bdd97cfd7dd))
+
 ## [1.1.5](https://github.com/PunctualSolutions/PunctualSolutionsTool/compare/1.1.4...1.1.5) (2024-07-03)
 
 
