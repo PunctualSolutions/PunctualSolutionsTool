@@ -1,3 +1,10 @@
+## [1.1.7](https://github.com/PunctualSolutions/PunctualSolutionsTool/compare/1.1.6...1.1.7) (2024-07-13)
+
+
+### Bug Fixes
+
+* BoxArea.GenerateRandomPoints bug ([b63702a](https://github.com/PunctualSolutions/PunctualSolutionsTool/commit/b63702aa7ebe02c313b2598b2b4c03bdddeb7880))
+
 ## [1.1.6](https://github.com/PunctualSolutions/PunctualSolutionsTool/compare/1.1.5...1.1.6) (2024-07-13)
 
 
