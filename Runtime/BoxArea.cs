@@ -19,9 +19,10 @@ namespace AutoLive.Main
             var maxTries = 10 * count;
             var points   = new List<Vector2>();
             var tries    = 0;
+            var origin   = new Vector2(transform.position.x, transform.position.z);
             while (points.Count < count && tries < maxTries)
             {
-                var randomPoint = new Vector2(Random.Range(-SpawnRange.x / 2, SpawnRange.x / 2), Random.Range(-SpawnRange.y / 2, SpawnRange.y / 2));
+                var randomPoint = origin + new Vector2(Random.Range(-SpawnRange.x / 2, SpawnRange.x / 2), Random.Range(-SpawnRange.y / 2, SpawnRange.y / 2));
                 if (IsPointValid(points, randomPoint, minDist)) points.Add(randomPoint);
                 tries++;
             }
