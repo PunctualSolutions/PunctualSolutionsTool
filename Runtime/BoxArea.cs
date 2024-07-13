@@ -14,17 +14,18 @@ namespace AutoLive.Main
             Gizmos.DrawWireCube(transform.position, new(SpawnRange.x, 0, SpawnRange.y));
         }
 
-        public List<Vector2> GenerateRandomPoints(Vector2 range, float minDist, int count)
+        public List<Vector2> GenerateRandomPoints(float minDist, int count)
         {
             var maxTries = 10 * count;
             var points   = new List<Vector2>();
             var tries    = 0;
             while (points.Count < count && tries < maxTries)
             {
-                var randomPoint = new Vector2(Random.Range(range.x, range.y), Random.Range(range.x, range.y));
+                var randomPoint = new Vector2(Random.Range(-SpawnRange.x / 2, SpawnRange.x / 2), Random.Range(-SpawnRange.y / 2, SpawnRange.y / 2));
                 if (IsPointValid(points, randomPoint, minDist)) points.Add(randomPoint);
                 tries++;
             }
+
             if (points.Count < count) throw new("无法在给定范围内生成足够数量的点");
             return points;
         }
