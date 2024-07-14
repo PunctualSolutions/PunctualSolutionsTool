@@ -1,3 +1,10 @@
+## [1.1.10](https://github.com/PunctualSolutions/PunctualSolutionsTool/compare/1.1.9...1.1.10) (2024-07-14)
+
+
+### Bug Fixes
+
+* BoxArea ([e0a2a25](https://github.com/PunctualSolutions/PunctualSolutionsTool/commit/e0a2a25f3f83f63a5a7b3c3908b495b76920c8a9))
+
 ## [1.1.9](https://github.com/PunctualSolutions/PunctualSolutionsTool/compare/1.1.8...1.1.9) (2024-07-13)
 
 
