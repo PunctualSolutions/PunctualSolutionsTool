@@ -14,10 +14,10 @@ namespace AutoLive.Main
             Gizmos.DrawWireCube(transform.position, new(SpawnRange.x, 0, SpawnRange.y));
         }
 
-        public List<Vector2> GenerateRandomPoints(float minDist, int count)
+        public List<Vector3> GenerateRandomPoints(float minDist, int count)
         {
             var maxTries = 10 * count;
-            var points   = new List<Vector2>();
+            var points   = new List<Vector3>();
             var tries    = 0;
             while (points.Count < count && tries < maxTries)
             {
@@ -30,6 +30,6 @@ namespace AutoLive.Main
             return points;
         }
 
-        static bool IsPointValid(List<Vector2> points, Vector2 point, float minDist) => points.All(otherPoint => !(Vector2.Distance(point, otherPoint) < minDist));
+        static bool IsPointValid(List<Vector3> points, Vector3 point, float minDist) => points.All(otherPoint => !(Vector3.Distance(point, otherPoint) < minDist));
     }
 }
