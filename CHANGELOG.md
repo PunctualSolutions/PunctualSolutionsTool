@@ -1,3 +1,10 @@
+## [1.1.11](https://github.com/PunctualSolutions/PunctualSolutionsTool/compare/1.1.10...1.1.11) (2024-07-20)
+
+
+### Bug Fixes
+
+* temp ([8923be8](https://github.com/PunctualSolutions/PunctualSolutionsTool/commit/8923be80d71edc39adfbafe93787c9f7124fae49))
+
 ## [1.1.10](https://github.com/PunctualSolutions/PunctualSolutionsTool/compare/1.1.9...1.1.10) (2024-07-14)
 
 
