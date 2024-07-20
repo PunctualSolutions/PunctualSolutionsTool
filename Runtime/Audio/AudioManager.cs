@@ -24,6 +24,7 @@ namespace PunctualSolutions.Tool.Audio
             foreach (var audioClip in _audioConfig.SoundEffectList) soundEffects.Add(audioClip.name, audioClip);
             bgmComponent          = gameObject.AddComponent<AudioSource>();
             bgmComponent.loop     = true;
+            
             soundEffectsComponent = gameObject.AddComponent<AudioSource>();
         }
 
