@@ -1,15 +1,19 @@
-﻿using UnityEditor;
+﻿#region
+
+using UnityEditor;
 using UnityEngine;
 using UnityEngine.TextCore.Text;
 
+#endregion
+
 namespace PunctualSolutionsTool.Tool.Editor
 {
-    internal class EditorSettings : ScriptableObject
+    class EditorSettings : ScriptableObject
     {
-        private const string Path = "Assets/Editor/EditorSettings.asset";
+        const string Path = "Assets/Editor/EditorSettings.asset";
 
-        [SerializeField] private FontAsset fontAsset;
-        [SerializeField] private string font;
+        [SerializeField] FontAsset fontAsset;
+        [SerializeField] string    font;
 
         internal static SerializedObject Get() => EditorTool.GetEditorScriptableObject<EditorSettings>(Path);
     }

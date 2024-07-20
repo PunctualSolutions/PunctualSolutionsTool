@@ -1,15 +1,19 @@
-﻿using UnityEditor;
+﻿#region
+
+using UnityEditor;
 using UnityEngine.UIElements;
+
+#endregion
 
 namespace PunctualSolutionsTool.Tool.Editor
 {
-    internal class EditorSettingsProvider : SettingsProvider
+    class EditorSettingsProvider : SettingsProvider
     {
-        private static readonly string[] Keywords = { "ZhengDian", "Font" };
+        static readonly string[] Keywords = { "ZhengDian", "Font" };
 
 
-        private EditorSettingsProvider(string path)
-            : base(path, SettingsScope.User, Keywords)
+        EditorSettingsProvider(string path)
+                : base(path, SettingsScope.User, Keywords)
         {
         }
 
@@ -23,9 +27,9 @@ namespace PunctualSolutionsTool.Tool.Editor
         {
             var provider = new EditorSettingsProvider("Preferences/ZhengDian")
             {
-                // TODO 添加参数进行处理
-                // Automatically extract all keywords from the Styles.
-                // Keywords = GetSearchKeywordsFromGUIContentProperties<Styles>()
+                    // TODO 添加参数进行处理
+                    // Automatically extract all keywords from the Styles.
+                    // Keywords = GetSearchKeywordsFromGUIContentProperties<Styles>()
             };
 
             return provider;

@@ -1,0 +1,16 @@
+{
+    "name": "PunctualSolutions.Tool.Audio",
+    "rootNamespace": "PunctualSolutions.Tool.Audio",
+    "references": [
+        "GUID:682ac9fd972789ebd9caf6d5623f1db6"
+    ],
+    "includePlatforms": [],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": true,
+    "precompiledReferences": [],
+    "autoReferenced": false,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": false
+}

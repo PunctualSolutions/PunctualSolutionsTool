@@ -1,10 +1,13 @@
-using System;
+#region
+
 using UnityEngine;
+
+#endregion
 
 public class MonoSingleton<T> : MonoBehaviour where T : MonoBehaviour
 {
+    public static     T    Instance;
     protected virtual bool IsDontDestroyOnLoad => true;
-    public static T Instance;
 
     public virtual void Awake()
     {
@@ -14,6 +17,6 @@ public class MonoSingleton<T> : MonoBehaviour where T : MonoBehaviour
             if (IsDontDestroyOnLoad)
                 DontDestroyOnLoad(gameObject);
         }
-        else if (Instance != this) throw new Exception("Instance already exists");
+        else if (Instance != this) throw new("Instance already exists");
     }
 }

@@ -1,6 +1,10 @@
-﻿using System.Collections.Generic;
+﻿#region
+
+using System.Collections.Generic;
 using System.Linq;
 using UnityEngine;
+
+#endregion
 
 namespace AutoLive.Main
 {
@@ -29,7 +33,6 @@ namespace AutoLive.Main
             if (points.Count < count) throw new("无法在给定范围内生成足够数量的点");
             return points;
         }
-        
 
         static bool IsPointValid(List<Vector3> points, Vector3 point, float minDist) => points.All(otherPoint => !(Vector3.Distance(point, otherPoint) < minDist));
     }
