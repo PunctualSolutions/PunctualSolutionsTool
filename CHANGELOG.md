@@ -1,3 +1,10 @@
+## [1.1.12](https://github.com/PunctualSolutions/PunctualSolutionsTool/compare/1.1.11...1.1.12) (2024-07-20)
+
+
+### Bug Fixes
+
+* add StateMachine ([9419835](https://github.com/PunctualSolutions/PunctualSolutionsTool/commit/94198351825185ded6bb4dbad006d95e9fffd6ac))
+
 ## [1.1.11](https://github.com/PunctualSolutions/PunctualSolutionsTool/compare/1.1.10...1.1.11) (2024-07-20)
 
 
