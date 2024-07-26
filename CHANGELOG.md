@@ -1,3 +1,10 @@
+## [1.1.13](https://github.com/PunctualSolutions/PunctualSolutionsTool/compare/1.1.12...1.1.13) (2024-07-26)
+
+
+### Bug Fixes
+
+* ColliderTool no Physics disable ([9294d02](https://github.com/PunctualSolutions/PunctualSolutionsTool/commit/9294d026fff0899bbb2be14bbaaa397840431523))
+
 ## [1.1.12](https://github.com/PunctualSolutions/PunctualSolutionsTool/compare/1.1.11...1.1.12) (2024-07-20)
 
 
