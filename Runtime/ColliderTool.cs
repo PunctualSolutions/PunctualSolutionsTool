@@ -1,3 +1,5 @@
+#if ENABLE_PHYSICS
+
 #region
 
 using UnityEngine;
@@ -17,3 +19,4 @@ namespace PunctualSolutionsTool.Tool
                 origin.bounds.Contains(target.bounds.min);
     }
 }
+#endif
