@@ -1,3 +1,10 @@
+## [1.1.14](https://github.com/PunctualSolutions/PunctualSolutionsTool/compare/1.1.13...1.1.14) (2024-07-29)
+
+
+### Bug Fixes
+
+* unity min version ([c56926c](https://github.com/PunctualSolutions/PunctualSolutionsTool/commit/c56926c89dedf6fd14c3a25515318a96536e3815))
+
 ## [1.1.13](https://github.com/PunctualSolutions/PunctualSolutionsTool/compare/1.1.12...1.1.13) (2024-07-26)
 
 
