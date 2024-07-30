@@ -1,3 +1,10 @@
+## [1.1.16](https://github.com/PunctualSolutions/PunctualSolutionsTool/compare/1.1.15...1.1.16) (2024-07-30)
+
+
+### Bug Fixes
+
+* MatrixLighting Shader ([d1fc300](https://github.com/PunctualSolutions/PunctualSolutionsTool/commit/d1fc300605d464de3381b68f54d73949dffe347d))
+
 ## [1.1.15](https://github.com/PunctualSolutions/PunctualSolutionsTool/compare/1.1.14...1.1.15) (2024-07-30)
 
 
