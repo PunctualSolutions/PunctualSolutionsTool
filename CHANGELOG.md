@@ -1,3 +1,10 @@
+## [1.1.15](https://github.com/PunctualSolutions/PunctualSolutionsTool/compare/1.1.14...1.1.15) (2024-07-30)
+
+
+### Bug Fixes
+
+* Holographic Shader ([11aac6d](https://github.com/PunctualSolutions/PunctualSolutionsTool/commit/11aac6d1f766c82176e4d8e43d1dddf67c41b3b5))
+
 ## [1.1.14](https://github.com/PunctualSolutions/PunctualSolutionsTool/compare/1.1.13...1.1.14) (2024-07-29)
 
 
