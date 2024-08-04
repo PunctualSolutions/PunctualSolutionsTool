@@ -9,13 +9,13 @@ namespace PunctualSolutions.Tool.Audio
 {
     public class AudioManager : MonoSingleton<AudioManager>
     {
-        [SerializeField] AudioConfig           _audioConfig;
-        AudioSource                            bgmComponent;
-        readonly Dictionary<string, AudioClip> _bgmList = new();
-        AudioSource                            soundEffectsComponent;
-        readonly Dictionary<string, AudioClip> soundEffects = new();
-        public   float                         BGMVolume          => bgmComponent.volume;
-        public   float                         SoundEffectsVolume => soundEffectsComponent.volume;
+        [SerializeField] AudioConfig                   _audioConfig;
+        readonly         Dictionary<string, AudioClip> _bgmList     = new();
+        readonly         Dictionary<string, AudioClip> soundEffects = new();
+        AudioSource                                    bgmComponent;
+        AudioSource                                    soundEffectsComponent;
+        public float                                   BGMVolume          => bgmComponent.volume;
+        public float                                   SoundEffectsVolume => soundEffectsComponent.volume;
 
         public override void Awake()
         {
