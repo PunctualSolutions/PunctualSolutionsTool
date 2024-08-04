@@ -1,3 +1,10 @@
+## [1.1.17](https://github.com/PunctualSolutions/PunctualSolutionsTool/compare/1.1.16...1.1.17) (2024-08-04)
+
+
+### Bug Fixes
+
+* add ObjectPool and AddressablesTool ([9cb69f0](https://github.com/PunctualSolutions/PunctualSolutionsTool/commit/9cb69f037800a16fba9a53ff01b292e82c7c68d7))
+
 ## [1.1.16](https://github.com/PunctualSolutions/PunctualSolutionsTool/compare/1.1.15...1.1.16) (2024-07-30)
 
 
