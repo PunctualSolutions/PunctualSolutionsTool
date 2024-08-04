@@ -37,7 +37,7 @@ namespace PunctualSolutions.Tool.Pool
             var @object = _pool.Count == 0 ? await OnCreate() : _pool.Dequeue();
             await OnGet(@object);
             _activeObjects.Add(@object);
-            if (Total > _warningExceedsSizeRange) Debug.LogWarning($"{typeof(T).Name} object Pool Size exceeds warning range");
+            if (_warningExceedsSizeRange != null && Total > _warningExceedsSizeRange) Debug.LogWarning($"{typeof(T).Name} object Pool Size exceeds warning range");
             return @object;
         }
 
