@@ -1,3 +1,10 @@
+## [1.1.18](https://github.com/PunctualSolutions/PunctualSolutionsTool/compare/1.1.17...1.1.18) (2024-08-04)
+
+
+### Bug Fixes
+
+* com.unity.addressables down 1 ([3e9b79d](https://github.com/PunctualSolutions/PunctualSolutionsTool/commit/3e9b79d037bd1fb5d522d44a2eb6652770378b48))
+
 ## [1.1.17](https://github.com/PunctualSolutions/PunctualSolutionsTool/compare/1.1.16...1.1.17) (2024-08-04)
 
 
