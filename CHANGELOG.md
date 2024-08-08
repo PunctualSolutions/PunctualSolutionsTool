@@ -1,3 +1,10 @@
+## [1.1.20](https://github.com/PunctualSolutions/PunctualSolutionsTool/compare/1.1.19...1.1.20) (2024-08-08)
+
+
+### Bug Fixes
+
+* add CustomArea ([895cc40](https://github.com/PunctualSolutions/PunctualSolutionsTool/commit/895cc402545c5b81cc717c50812ccd1ac6ff1842))
+
 ## [1.1.19](https://github.com/PunctualSolutions/PunctualSolutionsTool/compare/1.1.18...1.1.19) (2024-08-04)
 
 
