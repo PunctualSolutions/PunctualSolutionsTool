@@ -1,3 +1,10 @@
+## [1.1.21](https://github.com/PunctualSolutions/PunctualSolutionsTool/compare/1.1.20...1.1.21) (2024-08-08)
+
+
+### Bug Fixes
+
+* add AreaBase ([8366109](https://github.com/PunctualSolutions/PunctualSolutionsTool/commit/8366109e59b3af199c9f6ceb46dca5bd784bac6c))
+
 ## [1.1.20](https://github.com/PunctualSolutions/PunctualSolutionsTool/compare/1.1.19...1.1.20) (2024-08-08)
 
 
