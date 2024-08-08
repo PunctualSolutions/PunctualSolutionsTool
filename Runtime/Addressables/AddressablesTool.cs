@@ -4,7 +4,6 @@ using System.Linq;
 using Cysharp.Threading.Tasks;
 using UnityEngine;
 using UnityEngine.AddressableAssets;
-using UnityEngine.ResourceManagement.AsyncOperations;
 using UAddressable = UnityEngine.AddressableAssets.Addressables;
 
 namespace PunctualSolutions.Tool.Addressables

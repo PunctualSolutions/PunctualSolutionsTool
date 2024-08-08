@@ -2,13 +2,14 @@
 
 using System.Collections.Generic;
 using System.Linq;
+using PunctualSolutionsTool.Tool;
 using UnityEngine;
 
 #endregion
 
 namespace AutoLive.Main
 {
-    public class BoxArea : MonoBehaviour
+    public class BoxArea : MonoBehaviour, IArea
     {
         [field: SerializeField] public Vector2 SpawnRange { get; private set; }
 
@@ -25,13 +26,21 @@ namespace AutoLive.Main
             var tries    = 0;
             while (points.Count < count && tries < maxTries)
             {
-                var randomPoint = transform.position + new Vector3(Random.Range(-SpawnRange.x / 2, SpawnRange.x / 2), 0, Random.Range(-SpawnRange.y / 2, SpawnRange.y / 2));
+                var randomPoint = GetRandomPosition();
                 if (IsPointValid(points, randomPoint, minDist)) points.Add(randomPoint);
                 tries++;
             }
 
             if (points.Count < count) throw new("无法在给定范围内生成足够数量的点");
             return points;
+        }
+
+        public Vector3 GetRandomPosition()
+        {
+            var range = SpawnRange;
+            var x     = Random.Range(-range.x / 2, range.x / 2);
+            var z     = Random.Range(-range.y / 2, range.y / 2);
+            return new Vector3(x, 0, z) + transform.position;
         }
 
         static bool IsPointValid(List<Vector3> points, Vector3 point, float minDist) => points.All(otherPoint => !(Vector3.Distance(point, otherPoint) < minDist));
