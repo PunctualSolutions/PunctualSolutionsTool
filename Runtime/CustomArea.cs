@@ -4,7 +4,7 @@ using UnityEngine;
 
 namespace PunctualSolutionsTool.Tool
 {
-    public class CustomArea : MonoBehaviour, IArea
+    public class CustomArea : AreaBase
     {
         public Vector2[]       points;
         IReadOnlyList<Vector3> ShowPoints => points.Select(x => new Vector3(transform.position.x + x.x, transform.position.y, transform.position.z + x.y)).ToArray();
@@ -18,7 +18,7 @@ namespace PunctualSolutionsTool.Tool
             Gizmos.DrawLine(inPoints[^1], inPoints[0]);
         }
 
-        public List<Vector3> GenerateRandomPoints(float minDist, int count)
+        public override List<Vector3> GenerateRandomPoints(float minDist, int count)
         {
             var maxTries   = 10 * count;
             var pointsList = new List<Vector3>();
@@ -34,7 +34,7 @@ namespace PunctualSolutionsTool.Tool
             return pointsList;
         }
 
-        public Vector3 GetRandomPosition()
+        public override Vector3 GetRandomPosition()
         {
             var bounds = new Bounds(transform.position, Vector3.zero);
             foreach (var point in ShowPoints) bounds.Encapsulate(point);

@@ -9,7 +9,7 @@ using UnityEngine;
 
 namespace AutoLive.Main
 {
-    public class BoxArea : MonoBehaviour, IArea
+    public class BoxArea : AreaBase
     {
         [field: SerializeField] public Vector2 SpawnRange { get; private set; }
 
@@ -19,7 +19,7 @@ namespace AutoLive.Main
             Gizmos.DrawWireCube(transform.position, new(SpawnRange.x, 0, SpawnRange.y));
         }
 
-        public List<Vector3> GenerateRandomPoints(float minDist, int count)
+        public override List<Vector3> GenerateRandomPoints(float minDist, int count)
         {
             var maxTries = 10 * count;
             var points   = new List<Vector3>();
@@ -35,7 +35,7 @@ namespace AutoLive.Main
             return points;
         }
 
-        public Vector3 GetRandomPosition()
+        public override Vector3 GetRandomPosition()
         {
             var range = SpawnRange;
             var x     = Random.Range(-range.x / 2, range.x / 2);
