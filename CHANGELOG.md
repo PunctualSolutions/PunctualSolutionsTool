@@ -1,3 +1,10 @@
+## [1.1.19](https://github.com/PunctualSolutions/PunctualSolutionsTool/compare/1.1.18...1.1.19) (2024-08-04)
+
+
+### Bug Fixes
+
+* add Get ([e0c2390](https://github.com/PunctualSolutions/PunctualSolutionsTool/commit/e0c2390eb9d84ca68a393c79f94c05c32270cdbd))
+
 ## [1.1.18](https://github.com/PunctualSolutions/PunctualSolutionsTool/compare/1.1.17...1.1.18) (2024-08-04)
 
 
