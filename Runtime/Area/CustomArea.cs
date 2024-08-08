@@ -1,8 +1,12 @@
-﻿using System.Collections.Generic;
+﻿#region
+
+using System.Collections.Generic;
 using System.Linq;
 using UnityEngine;
 
-namespace PunctualSolutionsTool.Tool
+#endregion
+
+namespace PunctualSolutions.Tool.Area
 {
     public class CustomArea : AreaBase
     {
@@ -36,16 +40,40 @@ namespace PunctualSolutionsTool.Tool
 
         public override Vector3 GetRandomPosition()
         {
-            var bounds = new Bounds(transform.position, Vector3.zero);
-            foreach (var point in ShowPoints) bounds.Encapsulate(point);
+            // 计算边界框
+            float minX = float.MaxValue, maxX = float.MinValue;
+            float minY = float.MaxValue, maxY = float.MinValue;
 
-            var randomPoint = new Vector3(
-                    Random.Range(bounds.min.x, bounds.max.x),
-                    transform.position.y,
-                    Random.Range(bounds.min.z, bounds.max.z)
-            );
+            foreach (var point in points)
+            {
+                if (point.x < minX) minX = point.x;
+                if (point.x > maxX) maxX = point.x;
+                if (point.y < minY) minY = point.y;
+                if (point.y > maxY) maxY = point.y;
+            }
 
-            return randomPoint;
+            Vector2 randomPoint;
+            do
+                randomPoint = new(Random.Range(minX, maxX), Random.Range(minY, maxY));
+            while (!IsPointInPolygon(randomPoint));
+
+            return new(randomPoint.x + transform.position.x, transform.position.y, randomPoint.y + transform.position.z);
+        }
+
+        bool IsPointInPolygon(Vector2 testPoint)
+        {
+            var result = false;
+            var j      = points.Length - 1;
+            for (var i = 0; i < points.Length; i++)
+            {
+                if (points[i].y < testPoint.y && points[j].y >= testPoint.y || points[j].y < testPoint.y && points[i].y >= testPoint.y)
+                    if (points[i].x + (testPoint.y - points[i].y) / (points[j].y - points[i].y) * (points[j].x - points[i].x) < testPoint.x)
+                        result = !result;
+
+                j = i;
+            }
+
+            return result;
         }
 
         static bool IsPointValid(List<Vector3> points, Vector3 point, float minDist) => points.All(otherPoint => !(Vector3.Distance(point, otherPoint) < minDist));

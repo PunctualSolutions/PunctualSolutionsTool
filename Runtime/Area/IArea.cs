@@ -1,7 +1,11 @@
-﻿using System.Collections.Generic;
+﻿#region
+
+using System.Collections.Generic;
 using UnityEngine;
 
-namespace PunctualSolutionsTool.Tool
+#endregion
+
+namespace PunctualSolutions.Tool.Area
 {
     public interface IArea
     {

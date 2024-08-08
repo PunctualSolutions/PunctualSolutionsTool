@@ -2,12 +2,11 @@
 
 using System.Collections.Generic;
 using System.Linq;
-using PunctualSolutionsTool.Tool;
 using UnityEngine;
 
 #endregion
 
-namespace AutoLive.Main
+namespace PunctualSolutions.Tool.Area
 {
     public class BoxArea : AreaBase
     {
