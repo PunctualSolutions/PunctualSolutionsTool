@@ -1,3 +1,10 @@
+## [1.1.22](https://github.com/PunctualSolutions/PunctualSolutionsTool/compare/1.1.21...1.1.22) (2024-08-08)
+
+
+### Bug Fixes
+
+* customBox.IsPointInPolygon bug,move area scripts ([0014367](https://github.com/PunctualSolutions/PunctualSolutionsTool/commit/0014367ef0bb984f138e0d896e3540204faf2954))
+
 ## [1.1.21](https://github.com/PunctualSolutions/PunctualSolutionsTool/compare/1.1.20...1.1.21) (2024-08-08)
 
 
