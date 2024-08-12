@@ -1,3 +1,10 @@
+## [1.1.24](https://github.com/PunctualSolutions/PunctualSolutionsTool/compare/1.1.23...1.1.24) (2024-08-12)
+
+
+### Bug Fixes
+
+* AddressablesTool.GetList 2022 ([fda63eb](https://github.com/PunctualSolutions/PunctualSolutionsTool/commit/fda63ebcbc6021f3723d4ea2ab0eb7036212f24a))
+
 ## [1.1.23](https://github.com/PunctualSolutions/PunctualSolutionsTool/compare/1.1.22...1.1.23) (2024-08-12)
 
 
