@@ -1,6 +1,9 @@
 #region
 
 using System.Collections.Generic;
+using System.Threading;
+using Cysharp.Threading.Tasks;
+using PunctualSolutionsTool.Tool;
 using UnityEngine;
 
 #endregion
@@ -33,11 +36,12 @@ namespace PunctualSolutions.Tool.Audio
             PlayBgm(bgm);
         }
 
-        public void PlayBgm(AudioClip clip)
+        public async UniTask PlayBgm(AudioClip clip, CancellationToken token = default)
         {
             if (!clip) return;
             bgmComponent.clip = clip;
             bgmComponent.Play();
+            await bgmComponent.clip.length.Delay(token);
         }
 
         public void StopBgm() => bgmComponent.Stop();

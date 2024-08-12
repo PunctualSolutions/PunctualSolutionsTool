@@ -22,7 +22,7 @@ namespace PunctualSolutions.Tool.Area
             Gizmos.DrawLine(inPoints[^1], inPoints[0]);
         }
 
-        public override List<Vector3> GenerateRandomPoints(float minDist, int count)
+        public override List<Vector3> GenerateRandomPoints(float minDist, int count)  
         {
             var maxTries   = 10 * count;
             var pointsList = new List<Vector3>();
@@ -69,7 +69,6 @@ namespace PunctualSolutions.Tool.Area
                 if (points[i].y < testPoint.y && points[j].y >= testPoint.y || points[j].y < testPoint.y && points[i].y >= testPoint.y)
                     if (points[i].x + (testPoint.y - points[i].y) / (points[j].y - points[i].y) * (points[j].x - points[i].x) < testPoint.x)
                         result = !result;
-
                 j = i;
             }
 

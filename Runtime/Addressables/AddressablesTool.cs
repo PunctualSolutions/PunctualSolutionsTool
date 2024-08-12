@@ -38,6 +38,16 @@ namespace PunctualSolutions.Tool.Addressables
             WaitAssetString.Remove(key);
             return await UAddressable.LoadAssetAsync<T>(key);
         }
+
+        public static async UniTask<IList<T>> GetList<T>(string key) where T : Object
+        {
+            WaitAssetString.Add(key);
+            await UniTask.NextFrame();
+            while (WaitAssetString.First() != key)
+                await UniTask.NextFrame();
+            WaitAssetString.Remove(key);
+            return await UAddressable.LoadAssetsAsync<T>(key);
+        }
     }
 }
 #endif
