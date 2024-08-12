@@ -1,3 +1,10 @@
+## [1.1.25](https://github.com/PunctualSolutions/PunctualSolutionsTool/compare/1.1.24...1.1.25) (2024-08-12)
+
+
+### Bug Fixes
+
+* PlaySe ([670ab32](https://github.com/PunctualSolutions/PunctualSolutionsTool/commit/670ab324508d9aa8984979dfd58e26c0e306ef6f))
+
 ## [1.1.24](https://github.com/PunctualSolutions/PunctualSolutionsTool/compare/1.1.23...1.1.24) (2024-08-12)
 
 
