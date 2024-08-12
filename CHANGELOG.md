@@ -1,3 +1,10 @@
+## [1.1.26](https://github.com/PunctualSolutions/PunctualSolutionsTool/compare/1.1.25...1.1.26) (2024-08-12)
+
+
+### Bug Fixes
+
+* space ([3242e31](https://github.com/PunctualSolutions/PunctualSolutionsTool/commit/3242e3134857918eae0920ec85cafc49fb9d1606))
+
 ## [1.1.25](https://github.com/PunctualSolutions/PunctualSolutionsTool/compare/1.1.24...1.1.25) (2024-08-12)
 
 
