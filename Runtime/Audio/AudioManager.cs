@@ -2,6 +2,7 @@
 
 using System.Collections.Generic;
 using System.Threading;
+using System.Threading.Tasks;
 using Cysharp.Threading.Tasks;
 using PunctualSolutionsTool.Tool;
 using UnityEngine;
@@ -45,10 +46,10 @@ namespace PunctualSolutions.Tool.Audio
 
         public void StopBgm() => bgmComponent.Stop();
 
-        public void PlaySe(string seName)
+        public async UniTask PlaySe(string seName)
         {
             if (!soundEffects.TryGetValue(seName, out var effect)) return;
-            PlaySe(effect);
+            await PlaySe(effect);
         }
 
         public async UniTask PlaySe(AudioClip clip)
