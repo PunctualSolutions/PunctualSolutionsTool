@@ -44,6 +44,7 @@ namespace PunctualSolutions.Tool.Audio
             bgmComponent.Play();
         }
 
+        
         public void StopBgm() => bgmComponent.Stop();
 
         public async UniTask PlaySe(string seName)
