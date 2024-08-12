@@ -36,12 +36,11 @@ namespace PunctualSolutions.Tool.Audio
             PlayBgm(bgm);
         }
 
-        public async UniTask PlayBgm(AudioClip clip, CancellationToken token = default)
+        public void PlayBgm(AudioClip clip, CancellationToken token = default)
         {
             if (!clip) return;
             bgmComponent.clip = clip;
             bgmComponent.Play();
-            await bgmComponent.clip.length.Delay(token);
         }
 
         public void StopBgm() => bgmComponent.Stop();
@@ -52,10 +51,11 @@ namespace PunctualSolutions.Tool.Audio
             PlaySe(effect);
         }
 
-        public void PlaySe(AudioClip clip)
+        public async UniTask PlaySe(AudioClip clip)
         {
             if (!clip) return;
             soundEffectsComponent.PlayOneShot(clip);
+            await clip.length.Delay();
         }
 
         public void SetVolume(float bgmVolume, float seVolume)
