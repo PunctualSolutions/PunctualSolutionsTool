@@ -1,3 +1,10 @@
+## [1.1.23](https://github.com/PunctualSolutions/PunctualSolutionsTool/compare/1.1.22...1.1.23) (2024-08-12)
+
+
+### Bug Fixes
+
+* AudioManager.PlayBgm to task ([8cd2bbe](https://github.com/PunctualSolutions/PunctualSolutionsTool/commit/8cd2bbe14dcc1690bfbe2ec7f224ae221957ea1a))
+
 ## [1.1.22](https://github.com/PunctualSolutions/PunctualSolutionsTool/compare/1.1.21...1.1.22) (2024-08-08)
 
 
