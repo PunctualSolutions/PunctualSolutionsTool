@@ -1,6 +1,6 @@
 ﻿using UnityEngine;
 
-namespace PunctualSolutions.RideBicycle
+namespace PunctualSolutions.Tool
 {
     public class MonoAutoSingleton<T> : MonoBehaviour where T : MonoBehaviour
     {
