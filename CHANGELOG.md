@@ -1,3 +1,10 @@
+## [1.1.28](https://github.com/PunctualSolutions/PunctualSolutionsTool/compare/1.1.27...1.1.28) (2024-08-13)
+
+
+### Bug Fixes
+
+* namespace ([f1d356c](https://github.com/PunctualSolutions/PunctualSolutionsTool/commit/f1d356c9372b1d78344097fca5ba62febc25f297))
+
 ## [1.1.27](https://github.com/PunctualSolutions/PunctualSolutionsTool/compare/1.1.26...1.1.27) (2024-08-13)
 
 
