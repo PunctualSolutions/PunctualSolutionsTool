@@ -1,3 +1,10 @@
+## [1.1.27](https://github.com/PunctualSolutions/PunctualSolutionsTool/compare/1.1.26...1.1.27) (2024-08-13)
+
+
+### Bug Fixes
+
+* add MonoAutoSingleton ([21a5803](https://github.com/PunctualSolutions/PunctualSolutionsTool/commit/21a5803e2820b6f7cd069ec95c1aca7031c24be3))
+
 ## [1.1.26](https://github.com/PunctualSolutions/PunctualSolutionsTool/compare/1.1.25...1.1.26) (2024-08-12)
 
 
