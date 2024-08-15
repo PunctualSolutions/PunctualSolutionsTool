@@ -19,4 +19,9 @@ public class MonoSingleton<T> : MonoBehaviour where T : MonoBehaviour
         }
         else if (Instance != this) throw new("Instance already exists");
     }
+
+    void OnDestroy()
+    {
+        Instance = null;
+    }
 }

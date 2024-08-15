@@ -17,5 +17,10 @@ namespace PunctualSolutions.Tool
         }
 
         protected virtual bool IsDontDestroyOnLoad => true;
+
+        void OnDestroy()
+        {
+            Instance = null;
+        }
     }
 }
