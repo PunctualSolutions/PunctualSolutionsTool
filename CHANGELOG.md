@@ -1,3 +1,10 @@
+## [1.1.29](https://github.com/PunctualSolutions/PunctualSolutionsTool/compare/1.1.28...1.1.29) (2024-08-15)
+
+
+### Bug Fixes
+
+* Singleton Destroy set null ([e7b00a0](https://github.com/PunctualSolutions/PunctualSolutionsTool/commit/e7b00a0a7eef639586a0b6a6d6f8e91cd742e678))
+
 ## [1.1.28](https://github.com/PunctualSolutions/PunctualSolutionsTool/compare/1.1.27...1.1.28) (2024-08-13)
 
 
