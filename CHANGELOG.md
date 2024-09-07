@@ -1,3 +1,10 @@
+## [1.1.33](https://github.com/PunctualSolutions/PunctualSolutionsTool/compare/1.1.32...1.1.33) (2024-09-07)
+
+
+### Bug Fixes
+
+* AudioManager ([2ecd54c](https://github.com/PunctualSolutions/PunctualSolutionsTool/commit/2ecd54c1d01cb61e4f1e6db8846835dd543f02ba))
+
 ## [1.1.32](https://github.com/PunctualSolutions/PunctualSolutionsTool/compare/1.1.31...1.1.32) (2024-09-07)
 
 
