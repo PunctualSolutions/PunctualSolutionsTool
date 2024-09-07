@@ -21,7 +21,7 @@ public abstract class MonoSingleton<T> : MonoBehaviour where T : MonoBehaviour
         else if (Instance != this) throw new("Instance already exists");
     }
 
-    public virtual void InAwake();
+    public virtual void InAwake(){}
 
     void OnDestroy()
     {
