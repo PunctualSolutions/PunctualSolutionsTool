@@ -21,9 +21,8 @@ namespace PunctualSolutions.Tool.Audio
         public float                                   BGMVolume          => bgmComponent.volume;
         public float                                   SoundEffectsVolume => soundEffectsComponent.volume;
 
-        public override void Awake()
+        public override void InAwake()
         {
-            base.Awake();
             foreach (var audioClip in _audioConfig.BGMList) _bgmList.Add(audioClip.name, audioClip);
             foreach (var audioClip in _audioConfig.SoundEffectList) soundEffects.Add(audioClip.name, audioClip);
             bgmComponent          = gameObject.AddComponent<AudioSource>();
