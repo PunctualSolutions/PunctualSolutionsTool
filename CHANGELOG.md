@@ -1,3 +1,10 @@
+## [1.1.32](https://github.com/PunctualSolutions/PunctualSolutionsTool/compare/1.1.31...1.1.32) (2024-09-07)
+
+
+### Bug Fixes
+
+* mono bug ([063538d](https://github.com/PunctualSolutions/PunctualSolutionsTool/commit/063538de92f0db892df069d6e5cee3d2b0325c8b))
+
 ## [1.1.31](https://github.com/PunctualSolutions/PunctualSolutionsTool/compare/1.1.30...1.1.31) (2024-09-07)
 
 
