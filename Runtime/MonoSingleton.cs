@@ -16,11 +16,12 @@ public abstract class MonoSingleton<T> : MonoBehaviour where T : MonoBehaviour
             Instance = GetComponent<T>();
             if (IsDontDestroyOnLoad)
                 DontDestroyOnLoad(gameObject);
+            InAwake();
         }
         else if (Instance != this) throw new("Instance already exists");
     }
 
-    public abstract void InAwake();
+    public virtual void InAwake();
 
     void OnDestroy()
     {
