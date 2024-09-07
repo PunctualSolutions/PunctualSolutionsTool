@@ -1,3 +1,10 @@
+## [1.1.31](https://github.com/PunctualSolutions/PunctualSolutionsTool/compare/1.1.30...1.1.31) (2024-09-07)
+
+
+### Bug Fixes
+
+* InAwake bug ([70f62fc](https://github.com/PunctualSolutions/PunctualSolutionsTool/commit/70f62fcb3818ed9f5e9c1a86d461ae3cbee79bbe))
+
 ## [1.1.30](https://github.com/PunctualSolutions/PunctualSolutionsTool/compare/1.1.29...1.1.30) (2024-09-07)
 
 
