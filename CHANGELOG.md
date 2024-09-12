@@ -1,3 +1,10 @@
+## [1.1.34](https://github.com/PunctualSolutions/PunctualSolutionsTool/compare/1.1.33...1.1.34) (2024-09-12)
+
+
+### Bug Fixes
+
+* add MainManagerTool ([c3b918c](https://github.com/PunctualSolutions/PunctualSolutionsTool/commit/c3b918c93c39c6ee762c16f94fbe95a0a6f4aa51))
+
 ## [1.1.33](https://github.com/PunctualSolutions/PunctualSolutionsTool/compare/1.1.32...1.1.33) (2024-09-07)
 
 
