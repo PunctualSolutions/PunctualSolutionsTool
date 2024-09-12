@@ -6,6 +6,7 @@
   "unity": "2021.3",
   "dependencies": {
     "com.cysharp.unitask": "2.5.3",
-    "com.unity.nuget.newtonsoft-json": "3.2.1"
+    "com.unity.nuget.newtonsoft-json": "3.2.1",
+    "com.unity.textmeshpro": "3.0.9"
   }
 }
