@@ -3,7 +3,7 @@ using UnityEngine;
 
 namespace PunctualSolutions.Tool.Addressables
 {
-    public class AddressablesGroup : MonoBehaviour, IMonoSingleton<AddressablesGroup>
+    public class AddressablesGroup<T> : MonoBehaviour, IMonoSingleton<AddressablesGroup<T>>
     {
     }
 }
