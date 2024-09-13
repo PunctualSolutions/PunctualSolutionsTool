@@ -25,11 +25,11 @@ namespace PunctualSolutions.Tool.UGUI
                 var value = await AddressablesTool.Get<GameObject>(name);
                 var @object =
 #if UNITY_2022_3_OR_NEWER
-                    await Object.InstantiateAsync(value)[0];
+                    (await Object.InstantiateAsync(value))[0];
 #else
                     Object.Instantiate(value);
 #endif
-                var view = @object[0].GetComponent<T>();
+                var view = @object.GetComponent<T>();
                 if (windowManager != null && view is IWindow window)
                     window.WindowManager = windowManager;
                 result.SetResult(view);
