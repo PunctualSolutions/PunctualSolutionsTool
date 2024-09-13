@@ -1,3 +1,10 @@
+## [1.1.41](https://github.com/PunctualSolutions/PunctualSolutionsTool/compare/1.1.40...1.1.41) (2024-09-13)
+
+
+### Bug Fixes
+
+* AddressablesGroup.cs ([aae8959](https://github.com/PunctualSolutions/PunctualSolutionsTool/commit/aae895984fc7a54f1f821a1124c6215e0178c550))
+
 ## [1.1.40](https://github.com/PunctualSolutions/PunctualSolutionsTool/compare/1.1.39...1.1.40) (2024-09-13)
 
 
