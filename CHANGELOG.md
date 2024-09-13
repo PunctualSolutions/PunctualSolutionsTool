@@ -1,3 +1,10 @@
+## [1.1.35](https://github.com/PunctualSolutions/PunctualSolutionsTool/compare/1.1.34...1.1.35) (2024-09-12)
+
+
+### Bug Fixes
+
+* add ugui ([70837f5](https://github.com/PunctualSolutions/PunctualSolutionsTool/commit/70837f542fd5add98cbe2e8c42acd7de644d317d))
+
 ## [1.1.34](https://github.com/PunctualSolutions/PunctualSolutionsTool/compare/1.1.33...1.1.34) (2024-09-12)
 
 ### Bug Fixes
