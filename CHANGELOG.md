@@ -1,3 +1,10 @@
+## [1.1.38](https://github.com/PunctualSolutions/PunctualSolutionsTool/compare/1.1.37...1.1.38) (2024-09-13)
+
+
+### Bug Fixes
+
+* 2021 bug ([30706c0](https://github.com/PunctualSolutions/PunctualSolutionsTool/commit/30706c0978250d16bb00a83712e30663f90c97ec))
+
 ## [1.1.37](https://github.com/PunctualSolutions/PunctualSolutionsTool/compare/1.1.36...1.1.37) (2024-09-13)
 
 
