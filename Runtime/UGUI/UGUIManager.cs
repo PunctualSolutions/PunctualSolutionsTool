@@ -5,10 +5,8 @@ using UnityEngine;
 
 namespace PunctualSolutions.Tool.UGUI
 {
-    public class UGUIManager : MonoBehaviour, IMonoSingleton<UGUIManager>
+    public class UGUIManager : MonoSingleton<UGUIManager>
     {
-        public static UGUIManager Instance => MonoSingleton<UGUIManager>.Instance;
-
         [field: SerializeField]
         public UGUISettings Settings { get; private set; }
 

@@ -1,29 +1,50 @@
-using UnityEngine;
-
-namespace PunctualSolutions.Tool.Singleton
+﻿namespace PunctualSolutions.Tool.Singleton
 {
-    public static class MonoSingleton<T> where T : MonoBehaviour, IMonoSingleton<T>
+    using UnityEngine;
+
+    public abstract class MonoSingleton<T> : MonoBehaviour where T : MonoSingleton<T>
     {
         static T _instance;
-
-        public static bool DontDestroyOnLoad { get; set; } = true;
 
         public static T Instance
         {
             get
             {
-                if (!_instance) _instance = SingletonCreator.CreateMonoSingleton<T>(DontDestroyOnLoad);
+                if (_instance) return _instance;
+                _instance = FindAnyObjectByType<T>();
+                if (_instance) return _instance;
+                var singleton = new GameObject();
+                singleton.AddComponent<T>();
+                singleton.name = "Singleton" + typeof(T);
+                DontDestroyOnLoad(singleton);
                 return _instance;
             }
         }
 
-        public static void Dispose()
+        void Awake()
         {
-            if (SingletonCreator.IsUnitTestMode)
-                Object.DestroyImmediate(_instance.gameObject);
-            else
-                Object.Destroy(_instance.gameObject);
+            if (!_instance)
+            {
+                _instance = this as T;
+                DontDestroyOnLoad(gameObject);
+            }
+            else if (_instance != this) throw new("MonoSingleton already exists!");
+
+            InAwake();
+        }
+
+        void OnDestroy()
+        {
             _instance = null;
+            InDestroy();
+        }
+
+        protected virtual void InAwake()
+        {
+        }
+
+        protected virtual void InDestroy()
+        {
         }
     }
 }
