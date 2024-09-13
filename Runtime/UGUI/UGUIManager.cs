@@ -2,7 +2,6 @@ using Loxodon.Framework.Contexts;
 using Loxodon.Framework.Views;
 using PunctualSolutions.Tool.Singleton;
 using UnityEngine;
-using UnityEngine.AddressableAssets;
 
 namespace PunctualSolutions.Tool.UGUI
 {
@@ -22,12 +21,5 @@ namespace PunctualSolutions.Tool.UGUI
             var container = context.GetContainer();
             container.Register<IUIViewLocator>(new DefaultUIViewLocator());
         }
-    }
-
-    [CreateAssetMenu(fileName = "UGUI", menuName = "PunctualSolutions/UGUI/Settings", order = 1000)]
-    public class UGUISettings : ScriptableObject
-    {
-        [field: SerializeField]
-        public AssetReferenceT<AudioClip> DefaultButtonClickSound { get; private set; }
     }
 }
