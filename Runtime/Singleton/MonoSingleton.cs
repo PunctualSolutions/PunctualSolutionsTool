@@ -2,7 +2,7 @@ using UnityEngine;
 
 namespace PunctualSolutions.Tool.Singleton
 {
-    public static class MonoSingleton<T> where T : MonoBehaviour, ISingleton
+    public static class MonoSingleton<T> where T : MonoBehaviour, IMonoSingleton<T>
     {
         static T _instance;
 

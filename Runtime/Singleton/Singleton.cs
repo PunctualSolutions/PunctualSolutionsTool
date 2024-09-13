@@ -1,6 +1,6 @@
 namespace PunctualSolutions.Tool.Singleton
 {
-    public static class Singleton<T> where T : class, ISingleton
+    public static class Singleton<T> where T : class, ISingleton, ISingletonClass<T>
     {
         static          T      _instance;
         static readonly object Lock = new();
