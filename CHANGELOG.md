@@ -1,3 +1,10 @@
+## [1.1.45](https://github.com/PunctualSolutions/PunctualSolutionsTool/compare/1.1.44...1.1.45) (2024-09-13)
+
+
+### Bug Fixes
+
+* UGUIManager ([9708567](https://github.com/PunctualSolutions/PunctualSolutionsTool/commit/9708567bb398a2d2b259e80a015142c959049dd2))
+
 ## [1.1.44](https://github.com/PunctualSolutions/PunctualSolutionsTool/compare/1.1.43...1.1.44) (2024-09-13)
 
 
