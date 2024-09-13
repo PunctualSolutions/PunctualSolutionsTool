@@ -1,3 +1,10 @@
+## [1.1.37](https://github.com/PunctualSolutions/PunctualSolutionsTool/compare/1.1.36...1.1.37) (2024-09-13)
+
+
+### Bug Fixes
+
+* add AddressablesUIViewLocator ([c063dd0](https://github.com/PunctualSolutions/PunctualSolutionsTool/commit/c063dd0606d83030e95e330d637e957b829e3230))
+
 ## [1.1.36](https://github.com/PunctualSolutions/PunctualSolutionsTool/compare/1.1.35...1.1.36) (2024-09-13)
 
 
