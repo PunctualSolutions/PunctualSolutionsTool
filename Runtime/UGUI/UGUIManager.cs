@@ -17,7 +17,7 @@ namespace PunctualSolutions.Tool.UGUI
         {
             var context   = Context.GetApplicationContext();
             var container = context.GetContainer();
-            container.Register<IUIViewLocator>(new DefaultUIViewLocator());
+            container.Register<IUIViewLocator>(new AddressablesUIViewLocator());
         }
     }
 }
