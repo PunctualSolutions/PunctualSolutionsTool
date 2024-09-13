@@ -1,3 +1,10 @@
+## [1.1.39](https://github.com/PunctualSolutions/PunctualSolutionsTool/compare/1.1.38...1.1.39) (2024-09-13)
+
+
+### Bug Fixes
+
+* move ugui settings ([7b60854](https://github.com/PunctualSolutions/PunctualSolutionsTool/commit/7b608545f58859d2ffee0d1104b8c7e40f5e1d16))
+
 ## [1.1.38](https://github.com/PunctualSolutions/PunctualSolutionsTool/compare/1.1.37...1.1.38) (2024-09-13)
 
 
