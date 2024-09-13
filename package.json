@@ -7,6 +7,7 @@
   "dependencies": {
     "com.cysharp.unitask": "2.5.3",
     "com.unity.nuget.newtonsoft-json": "3.2.1",
-    "com.unity.textmeshpro": "3.0.9"
+    "com.unity.textmeshpro": "3.0.9",
+    "com.vovgou.loxodon-framework": "2.6.6"
   }
 }
