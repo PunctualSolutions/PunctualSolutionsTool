@@ -1,3 +1,13 @@
+## [1.1.40](https://github.com/PunctualSolutions/PunctualSolutionsTool/compare/1.1.39...1.1.40) (2024-09-13)
+
+
+### Bug Fixes
+
+* add AddressablesGroup ([479387f](https://github.com/PunctualSolutions/PunctualSolutionsTool/commit/479387fd6d98ef7615466534ff79207e38810ced))
+* AddressablesUIViewLocator.cs ([8070d82](https://github.com/PunctualSolutions/PunctualSolutionsTool/commit/8070d82d318312015c419fb9c687a661ec67dfda))
+* AddressablesUIViewLocator.cs ([22fbffd](https://github.com/PunctualSolutions/PunctualSolutionsTool/commit/22fbffd293165df390c3dd6aa0c57db31eb53998))
+* TextEx.cs ([a348c72](https://github.com/PunctualSolutions/PunctualSolutionsTool/commit/a348c72aff517959c870801276c38f3d76577336))
+
 ## [1.1.39](https://github.com/PunctualSolutions/PunctualSolutionsTool/compare/1.1.38...1.1.39) (2024-09-13)
 
 
