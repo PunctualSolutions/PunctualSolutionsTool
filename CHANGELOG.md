@@ -1,3 +1,10 @@
+## [1.1.36](https://github.com/PunctualSolutions/PunctualSolutionsTool/compare/1.1.35...1.1.36) (2024-09-13)
+
+
+### Bug Fixes
+
+* add ugui button audio ([932e1b2](https://github.com/PunctualSolutions/PunctualSolutionsTool/commit/932e1b2b6e9991becdf9602e8864bbe53d060e25))
+
 ## [1.1.35](https://github.com/PunctualSolutions/PunctualSolutionsTool/compare/1.1.34...1.1.35) (2024-09-12)
 
 
