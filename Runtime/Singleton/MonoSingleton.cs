@@ -14,9 +14,10 @@
                 _instance = FindAnyObjectByType<T>();
                 if (_instance) return _instance;
                 var singleton = new GameObject();
-                singleton.AddComponent<T>();
+                var component = singleton.AddComponent<T>();
                 singleton.name = "Singleton" + typeof(T);
-                DontDestroyOnLoad(singleton);
+                if (component.IsDontDestroyOnLoad)
+                    DontDestroyOnLoad(singleton);
                 return _instance;
             }
         }
@@ -26,7 +27,8 @@
             if (!_instance)
             {
                 _instance = this as T;
-                DontDestroyOnLoad(gameObject);
+                if (IsDontDestroyOnLoad)
+                    DontDestroyOnLoad(gameObject);
             }
             else if (_instance != this) throw new("MonoSingleton already exists!");
 
@@ -38,6 +40,8 @@
             _instance = null;
             InDestroy();
         }
+
+        protected virtual bool IsDontDestroyOnLoad => true;
 
         protected virtual void InAwake()
         {
