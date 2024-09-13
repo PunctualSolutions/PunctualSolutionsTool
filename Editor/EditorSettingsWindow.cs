@@ -14,8 +14,7 @@ namespace PunctualSolutionsTool.Tool.Editor
 
         public EditorSettingsWindow(VisualElement element)
         {
-            var asset = AssetDatabase.LoadAssetAtPath<VisualTreeAsset>
-                    (PackageInfo.FindForAssembly(typeof(EditorSettingsWindow).Assembly).assetPath);
+            var asset = AssetDatabase.LoadAssetAtPath<VisualTreeAsset>(PackageInfo.FindForAssembly(typeof(EditorSettingsWindow).Assembly).assetPath);
             asset.CloneTree(element);
         }
     }

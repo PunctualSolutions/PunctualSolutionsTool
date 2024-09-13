@@ -1,8 +1,10 @@
 ﻿#region
 
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using UnityEngine;
+using Random = UnityEngine.Random;
 
 #endregion
 
@@ -10,7 +12,8 @@ namespace PunctualSolutions.Tool.Area
 {
     public class BoxArea : AreaBase
     {
-        [field: SerializeField] public Vector2 SpawnRange { get; private set; }
+        [field: SerializeField]
+        public Vector2 SpawnRange { get; private set; }
 
         void OnDrawGizmos()
         {
@@ -42,6 +45,9 @@ namespace PunctualSolutions.Tool.Area
             return new Vector3(x, 0, z) + transform.position;
         }
 
-        static bool IsPointValid(List<Vector3> points, Vector3 point, float minDist) => points.All(otherPoint => !(Vector3.Distance(point, otherPoint) < minDist));
+        static bool IsPointValid(List<Vector3> points, Vector3 point, float minDist)
+        {
+            return points.All(otherPoint => !(Vector3.Distance(point, otherPoint) < minDist));
+        }
     }
 }

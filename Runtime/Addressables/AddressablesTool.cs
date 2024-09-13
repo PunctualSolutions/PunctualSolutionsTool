@@ -47,9 +47,9 @@ namespace PunctualSolutions.Tool.Addressables
                 await UniTask.NextFrame();
             WaitAssetString.Remove(key);
             return await UAddressable.LoadAssetsAsync<T>(key
-                           #if !UNITY_6000
+#if !UNITY_6000
             , null
-                           #endif
+#endif
                    );
         }
     }

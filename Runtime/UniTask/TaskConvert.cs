@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 #endregion
 
-namespace PunctualSolutionsTool.Tool
+namespace PunctualSolutions.Tool.UniTask
 {
     public class TaskConvert
     {
@@ -39,7 +39,10 @@ namespace PunctualSolutionsTool.Tool
 
             return;
 
-            void C() => completion.TrySetResult(true);
+            void C()
+            {
+                completion.TrySetResult(true);
+            }
         }
     }
 

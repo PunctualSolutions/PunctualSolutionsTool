@@ -1,8 +1,10 @@
 ﻿#region
 
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using UnityEngine;
+using Random = UnityEngine.Random;
 
 #endregion
 
@@ -10,19 +12,20 @@ namespace PunctualSolutions.Tool.Area
 {
     public class CustomArea : AreaBase
     {
-        public Vector2[]       points;
+        public Vector2[] points;
+
         IReadOnlyList<Vector3> ShowPoints => points.Select(x => new Vector3(transform.position.x + x.x, transform.position.y, transform.position.z + x.y)).ToArray();
 
         void OnDrawGizmos()
         {
             var inPoints = ShowPoints;
-            if (inPoints is not { Count: >= 2 }) return;
+            if (inPoints is not { Count: >= 2, }) return;
             Gizmos.color = Color.yellow;
             for (var i = 0; i < inPoints.Count - 1; i++) Gizmos.DrawLine(inPoints[i], inPoints[i + 1]);
             Gizmos.DrawLine(inPoints[^1], inPoints[0]);
         }
 
-        public override List<Vector3> GenerateRandomPoints(float minDist, int count)  
+        public override List<Vector3> GenerateRandomPoints(float minDist, int count)
         {
             var maxTries   = 10 * count;
             var pointsList = new List<Vector3>();
@@ -75,6 +78,9 @@ namespace PunctualSolutions.Tool.Area
             return result;
         }
 
-        static bool IsPointValid(List<Vector3> points, Vector3 point, float minDist) => points.All(otherPoint => !(Vector3.Distance(point, otherPoint) < minDist));
+        static bool IsPointValid(List<Vector3> points, Vector3 point, float minDist)
+        {
+            return points.All(otherPoint => !(Vector3.Distance(point, otherPoint) < minDist));
+        }
     }
 }

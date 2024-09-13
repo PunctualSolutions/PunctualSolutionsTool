@@ -9,11 +9,10 @@ namespace PunctualSolutionsTool.Tool.Editor
 {
     class EditorSettingsProvider : SettingsProvider
     {
-        static readonly string[] Keywords = { "ZhengDian", "Font" };
+        static readonly string[] Keywords = { "ZhengDian", "Font", };
 
 
-        EditorSettingsProvider(string path)
-                : base(path, SettingsScope.User, Keywords)
+        EditorSettingsProvider(string path) : base(path, SettingsScope.User, Keywords)
         {
         }
 
@@ -26,11 +25,11 @@ namespace PunctualSolutionsTool.Tool.Editor
         public static SettingsProvider Create()
         {
             var provider = new EditorSettingsProvider("Preferences/ZhengDian")
-            {
-                    // TODO 添加参数进行处理
-                    // Automatically extract all keywords from the Styles.
-                    // Keywords = GetSearchKeywordsFromGUIContentProperties<Styles>()
-            };
+                           {
+                               // TODO 添加参数进行处理
+                               // Automatically extract all keywords from the Styles.
+                               // Keywords = GetSearchKeywordsFromGUIContentProperties<Styles>()
+                           };
 
             return provider;
         }
