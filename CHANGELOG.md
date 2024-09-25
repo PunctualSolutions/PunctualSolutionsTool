@@ -1,3 +1,10 @@
+## [1.1.46](https://github.com/PunctualSolutions/PunctualSolutionsTool/compare/1.1.45...1.1.46) (2024-09-25)
+
+
+### Bug Fixes
+
+* add singleton ([820eb97](https://github.com/PunctualSolutions/PunctualSolutionsTool/commit/820eb971fad0bf778caf71f6d11f6680c08fd7d0))
+
 ## [1.1.45](https://github.com/PunctualSolutions/PunctualSolutionsTool/compare/1.1.44...1.1.45) (2024-09-13)
 
 
