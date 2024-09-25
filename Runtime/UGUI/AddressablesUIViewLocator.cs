@@ -10,7 +10,8 @@ namespace PunctualSolutions.Tool.UGUI
 {
     public class AddressablesUIViewLocator : UIViewLocatorBase
     {
-        protected virtual IWindowManager GetDefaultWindowManager()                                => UGUIManager.Instance.GlobalWindowManager;
+        protected virtual IWindowManager GetDefaultWindowManager() => null;
+            //UGUIManager.Instance.GlobalWindowManager;
         public override   T              LoadView<T>(string           name)                       => throw new NotImplementedException();
         public override   T              LoadWindow<T>(string         name)                       => throw new NotImplementedException();
         public override   T              LoadWindow<T>(IWindowManager windowManager, string name) => throw new NotImplementedException();

@@ -3,7 +3,7 @@ using UnityEngine;
 
 namespace PunctualSolutions.Tool.UniTask
 {
-    public class UniTaskManager : MonoSingleton<UniTaskManager>
-    {
-    }
+    // public class UniTaskManager : MonoSingleton<UniTaskManager>
+    // {
+    // }
 }

@@ -21,7 +21,7 @@ namespace PunctualSolutions.Tool.UniTask
 
         public static CyUniTask ToUniTaskX(this IEnumerator enumerator, MonoBehaviour coroutineRunner = null)
         {
-            if (!coroutineRunner) coroutineRunner = UniTaskManager.Instance;
+            if (!coroutineRunner) coroutineRunner = null;//UniTaskManager.Instance;
             return enumerator.ToUniTask(coroutineRunner);
         }
     }
