@@ -1,3 +1,10 @@
+## [1.1.48](https://github.com/PunctualSolutions/PunctualSolutionsTool/compare/1.1.47...1.1.48) (2024-09-25)
+
+
+### Bug Fixes
+
+* singleton bug ([0b8469e](https://github.com/PunctualSolutions/PunctualSolutionsTool/commit/0b8469e5029e4e990559d333fd2c05ce2d9cfd90))
+
 ## [1.1.47](https://github.com/PunctualSolutions/PunctualSolutionsTool/compare/1.1.46...1.1.47) (2024-09-25)
 
 
