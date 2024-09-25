@@ -10,11 +10,12 @@ namespace PunctualSolutions.Tool.UGUI
 {
     public class AddressablesUIViewLocator : UIViewLocatorBase
     {
-        protected virtual IWindowManager GetDefaultWindowManager() => null;
-            //UGUIManager.Instance.GlobalWindowManager;
-        public override   T              LoadView<T>(string           name)                       => throw new NotImplementedException();
-        public override   T              LoadWindow<T>(string         name)                       => throw new NotImplementedException();
-        public override   T              LoadWindow<T>(IWindowManager windowManager, string name) => throw new NotImplementedException();
+        protected virtual IWindowManager GetDefaultWindowManager() => UGUIManager.Instance.GlobalWindowManager;
+        public override T LoadView<T>(string name) => throw new NotImplementedException();
+        public override T LoadWindow<T>(string name) => throw new NotImplementedException();
+
+        public override T LoadWindow<T>(IWindowManager windowManager, string name) =>
+            throw new NotImplementedException();
 
         public override IProgressResult<float, T> LoadViewAsync<T>(string name) => Load<T>(name);
 
@@ -39,7 +40,9 @@ namespace PunctualSolutions.Tool.UGUI
             return result;
         }
 
-        public override IProgressResult<float, T> LoadWindowAsync<T>(string         name)                       => Load<T>(name);
-        public override IProgressResult<float, T> LoadWindowAsync<T>(IWindowManager windowManager, string name) => Load<T>(name, windowManager);
+        public override IProgressResult<float, T> LoadWindowAsync<T>(string name) => Load<T>(name);
+
+        public override IProgressResult<float, T> LoadWindowAsync<T>(IWindowManager windowManager, string name) =>
+            Load<T>(name, windowManager);
     }
 }

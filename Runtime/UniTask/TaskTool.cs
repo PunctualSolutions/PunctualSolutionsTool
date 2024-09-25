@@ -17,11 +17,12 @@ namespace PunctualSolutions.Tool.UniTask
         /// </summary>
         /// <param name="token"></param>
         /// <returns></returns>
-        public static CancellationTokenSource CreateLinkedTokenSource(this CancellationToken token) => CancellationTokenSource.CreateLinkedTokenSource(token);
+        public static CancellationTokenSource CreateLinkedTokenSource(this CancellationToken token) =>
+            CancellationTokenSource.CreateLinkedTokenSource(token);
 
         public static CyUniTask ToUniTaskX(this IEnumerator enumerator, MonoBehaviour coroutineRunner = null)
         {
-            if (!coroutineRunner) coroutineRunner = null;//UniTaskManager.Instance;
+            if (!coroutineRunner) coroutineRunner = UniTaskManager.Instance;
             return enumerator.ToUniTask(coroutineRunner);
         }
     }

@@ -22,8 +22,8 @@ namespace PunctualSolutions.Tool.UGUI
                     return;
                 }
 
-                // var audioClip = await UGUIManager.Instance.Settings.DefaultButtonClickSound.Get();
-                // if (audioClip) AudioKit.PlayVoice(audioClip);
+                var audioClip = await UGUIManager.Instance.Settings.DefaultButtonClickSound.Get();
+                if (audioClip) AudioKit.PlayVoice(audioClip);
             }));
         }
     }
