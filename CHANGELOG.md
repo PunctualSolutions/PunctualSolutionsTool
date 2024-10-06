@@ -1,3 +1,10 @@
+## [1.1.50](https://github.com/PunctualSolutions/PunctualSolutionsTool/compare/1.1.49...1.1.50) (2024-10-06)
+
+
+### Bug Fixes
+
+* bug ([d56acfe](https://github.com/PunctualSolutions/PunctualSolutionsTool/commit/d56acfee2ed328737f6b1b1979e01d98d8708523))
+
 ## [1.1.49](https://github.com/PunctualSolutions/PunctualSolutionsTool/compare/1.1.48...1.1.49) (2024-10-06)
 
 
