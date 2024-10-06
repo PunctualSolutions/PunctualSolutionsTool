@@ -1,3 +1,10 @@
+## [1.1.49](https://github.com/PunctualSolutions/PunctualSolutionsTool/compare/1.1.48...1.1.49) (2024-10-06)
+
+
+### Bug Fixes
+
+* dll bug ([663eedb](https://github.com/PunctualSolutions/PunctualSolutionsTool/commit/663eedb6fee14c9d1e77ea07dfba04d35d00bb32))
+
 ## [1.1.48](https://github.com/PunctualSolutions/PunctualSolutionsTool/compare/1.1.47...1.1.48) (2024-09-25)
 
 
