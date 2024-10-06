@@ -26,7 +26,7 @@ namespace PunctualSolutions.Tool.UGUI
             {
                 var value = await AddressablesTool.Get<GameObject>(name);
                 var @object =
-#if UNITY_2022_3_OR_NEWER
+#if UNITY_6000
                     (await Object.InstantiateAsync(value))[0];
 #else
                     Object.Instantiate(value);
