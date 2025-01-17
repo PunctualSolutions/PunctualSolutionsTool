@@ -181,6 +181,7 @@ namespace PunctualSolutions.Samples
             _inputVertical   = moveDelta.y;
             _inputHorizontal = moveDelta.x;
             _inputYAxis      = _yMoveAction.ReadValue<Vector2>().y;
+            
 #else
             if (Input.GetMouseButton(1))
             {
