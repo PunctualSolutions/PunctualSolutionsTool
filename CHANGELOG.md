@@ -1,3 +1,10 @@
+## [1.1.52](https://github.com/PunctualSolutions/PunctualSolutionsTool/compare/1.1.51...1.1.52) (2025-01-17)
+
+
+### Bug Fixes
+
+* free camera ([ade9ebc](https://github.com/PunctualSolutions/PunctualSolutionsTool/commit/ade9ebc4bc6efecb99883f92a88966e6674df6c6))
+
 ## [1.1.51](https://github.com/PunctualSolutions/PunctualSolutionsTool/compare/1.1.50...1.1.51) (2024-10-13)
 
 
