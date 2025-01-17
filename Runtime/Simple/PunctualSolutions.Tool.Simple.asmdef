@@ -1,0 +1,14 @@
+{
+    "name": "PunctualSolutions.Tool.Simple",
+    "rootNamespace": "PunctualSolutions.Tool.Simple",
+    "references": [],
+    "includePlatforms": [],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": true,
+    "precompiledReferences": [],
+    "autoReferenced": false,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": false
+}
