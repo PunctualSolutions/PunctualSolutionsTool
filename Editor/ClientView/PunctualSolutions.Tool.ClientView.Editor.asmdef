@@ -1,0 +1,20 @@
+{
+    "name": "PunctualSolutions.Tool.ClientView.Editor",
+    "rootNamespace": "PunctualSolutions.Tool.ClientView.Editor",
+    "references": [
+        "GUID:0bb780b053d3947489c985e4ee50fe59"
+    ],
+    "includePlatforms": [
+        "Editor"
+    ],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": true,
+    "precompiledReferences": [
+        "ICSharpCode.SharpZipLib.dll"
+    ],
+    "autoReferenced": false,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": false
+}
